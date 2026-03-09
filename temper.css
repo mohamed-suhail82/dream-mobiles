@@ -1,0 +1,109 @@
+body{
+font-family: '  times new roman';
+background:linear-gradient(to right,#87f5f5,#ffe5f1,#87f5f5);
+margin:0;
+}
+
+.title{
+font-size:40px;
+font-family:'Times New Roman' ;
+font-weight:bold;
+background:linear-gradient(to right,#9caffe,#977dff,#ffccf2);
+color:rgb(255, 255, 255);
+text-align:center;
+padding: 20px   ;
+}
+
+.category-buttons{
+background:linear-gradient(to right,#87f5f5,#ffe5f1,#87f5f5);
+display:flex;
+flex-wrap:wrap;
+justify-content:left;
+gap:15px;
+padding: 10px;
+margin-top:15px;
+}
+
+.btn:hover{
+transform:scale(1.20);
+}
+
+.btn{
+padding:10px 16px;
+font-family:  Cochin;
+background:linear-gradient(to right,#b2e9fa,#48caf2);
+color:rgb(0, 0, 0);
+text-decoration:none;
+border-radius:5px;
+font-size:14px;
+}
+
+
+products{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+padding:20px;
+}
+
+.products{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+padding:20px;
+}
+
+.card{
+background:rgb(255, 255, 255);
+width:220px;
+padding:15px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.car{
+background:rgb(255, 255, 255);
+width:220px;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+transform:scale(1.10);
+}
+.card img{
+width:100%;
+border-radius:10px;
+}
+.car img{
+width:100%;
+border-radius:10px;
+}
+
+button{
+background:#25d356;
+color:rgb(0, 0, 0);
+border:none;
+padding:10px;
+border-radius:20px;
+cursor:pointer;
+} 
+
+
+footer{
+background:black;
+color: white;
+padding:40px;
+margin-top:50px;
+}
+
+.footer{
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+}
